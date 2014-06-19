@@ -1070,6 +1070,11 @@ struct MHD_Daemon
   unsigned int worker_pool_size;
 
   /**
+   * Number of worker instance (0 to worker_pool_size - 1)
+   */
+  unsigned int worker_instance;
+
+  /**
    * The select thread handle (if we have internal select)
    */
   MHD_thread_handle_ pid;

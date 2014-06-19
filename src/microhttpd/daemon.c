@@ -3836,6 +3836,7 @@ MHD_start_daemon_va (unsigned int flags,
           d->master = daemon;
           d->worker_pool_size = 0;
           d->worker_pool = NULL;
+          d->worker_instance = i;
 
           if ( (MHD_USE_SUSPEND_RESUME == (flags & MHD_USE_SUSPEND_RESUME)) &&
                (0 != MHD_pipe_ (d->wpipe)) )
