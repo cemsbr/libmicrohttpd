@@ -8,9 +8,11 @@
 Makefile
 
 # From git status
+autom4te.cache
 MHD_config.h
 config.h.in
 config.status
+configure
 doc/examples/basicauthentication
 doc/examples/hellobrowser
 doc/examples/largepost
@@ -19,6 +21,7 @@ doc/examples/responseheaders
 doc/examples/sessions
 doc/examples/simplepost
 doc/examples/tlsauthentication
+doc/libmicrohttpd.info
 doc/stamp-vti
 doc/version.texi
 libtool
